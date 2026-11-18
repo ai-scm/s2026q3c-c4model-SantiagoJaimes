@@ -28,10 +28,16 @@ Dentro de la Lambda (C3) separé los componentes en tres grupos. Las **entradas*
 ## 2. Diagramas
 
 ### C1 · Contexto
-![C1 - Contexto](Imagenes/C4Model-C1 - Contexto.drawio.png)
+<img width="682" height="852" alt="C4Model-C1 - Contexto drawio" src="https://github.com/user-attachments/assets/9c2e3017-1891-45cf-b36c-7d4b5450fabb" />
+
 
 ### C2 · Contenedores
-![C2 - Contenedores](Imagenes/C4Model-C2 - Contenedores.drawio.png)
+<img width="882" height="1242" alt="C4Model-C2 - Contenedores drawio" src="https://github.com/user-attachments/assets/3dcae75e-aeb1-4cbd-bf17-e5ad226b43ab" />
+
+
 
 ### C3 · Componentes del contenedor *Bot & API*
-![C3 - Componentes](Imagenes/C4Model-C3 - Componentes (Lambda).drawio.png)
+<img width="1762" height="1352" alt="C4Model-C3 - Componentes (Lambda) drawio" src="https://github.com/user-attachments/assets/17b8fc9d-6714-450d-87df-5aaa02de70ee" />
+
+
+
