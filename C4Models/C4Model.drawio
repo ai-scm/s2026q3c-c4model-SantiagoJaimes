@@ -1,0 +1,385 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="C1 - Contexto" id="3iwAwJoABLGQ80eGc1DA">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="850" width="680" x="74" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-1" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=light-dark(#08427b, #1d293b);strokeColor=light-dark(#08427b, #5c79a3);fontColor=#FFFFFF;" value="&lt;b&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Integrante del equipo&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Persona]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;Miembro de un equipo Scrum de Acme Corp. Recibe el recordatorio, llena su daily y lee las de los demás.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="134" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-2" parent="1" style="shape=mermaidPerson;perimeter=mermaidPersonPerimeter;whiteSpace=wrap;html=1;fillColor=light-dark(#08427b, #1d293b);strokeColor=light-dark(#08427b, #5c79a3);fontColor=#FFFFFF;" value="&lt;b&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Scrum Master&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Persona]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;Recibe las alertas de faltantes y de temas repetidos y hace seguimiento a los bloqueos.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="484" y="130" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Microsoft Teams" c4Type="Sistema Externo" c4Description="Plataforma de chat de Acme Corp: mensajes 1:1 con el bot y canal del equipo. Autentica a los usuarios." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="PnZFRy9KCrfjyPF-SwMC-5">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="284" y="410" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-7" edge="1" parent="1" source="PnZFRy9KCrfjyPF-SwMC-1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.492;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;" target="PnZFRy9KCrfjyPF-SwMC-5" value="Recibe el recordatorio, llena&lt;br&gt;la daily y lee el canal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="214" y="680" as="sourcePoint" />
+            <mxPoint x="328" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-8" edge="1" parent="1" source="PnZFRy9KCrfjyPF-SwMC-2" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.529;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PnZFRy9KCrfjyPF-SwMC-5" value="&lt;div&gt;Recibe alertas&lt;/div&gt;&lt;div&gt;y lee el canal&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="390" as="sourcePoint" />
+            <mxPoint x="414" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="DailyPulse" c4Type="Sistema de software" c4Description="Envía el recordatorio diario, recibe el reporte en casillas fijas, detecta quién no reportó y quién repite tema 3 veces seguidas, y publica los reportes en el canal." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="PnZFRy9KCrfjyPF-SwMC-9">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#FFFFFF;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="284" y="650" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-10" edge="1" parent="1" source="PnZFRy9KCrfjyPF-SwMC-5" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PnZFRy9KCrfjyPF-SwMC-9" value="&lt;div&gt;Envia recordatorios,&amp;nbsp;&lt;/div&gt;&lt;div&gt;alertas y publica reportes&lt;/div&gt;&lt;div&gt;[Bot Connect API]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="314" y="390" as="sourcePoint" />
+            <mxPoint x="414" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnZFRy9KCrfjyPF-SwMC-11" edge="1" parent="1" source="PnZFRy9KCrfjyPF-SwMC-9" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="PnZFRy9KCrfjyPF-SwMC-5" value="&lt;div&gt;Entraga las respuestas&lt;/div&gt;&lt;div&gt;del Formulario&lt;/div&gt;&lt;div&gt;[HTTPS]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="334" y="620" as="sourcePoint" />
+            <mxPoint x="334" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-1" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#222222;" value="&lt;b&gt;&lt;font style=&quot;font-size:20px&quot;&gt;C1 · Diagrama de Contexto del Sistema — DailyPulse&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;Acme Corp · Control de dailies Scrum integrado con Microsoft Teams · Infraestructura en AWS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="620" x="94" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#222222;" value="&lt;b&gt;Leyenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="94" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-3" parent="1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#08427B;strokeColor=#073B6F;fontColor=#FFFFFF;fontSize=11;" value="Persona" vertex="1">
+          <mxGeometry height="40" width="130" x="94" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-4" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#1168BD;strokeColor=#0B4884;fontColor=#FFFFFF;fontSize=11;" value="Sistema (foco)" vertex="1">
+          <mxGeometry height="40" width="130" x="234" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-5" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#8A8A8A;fontColor=#FFFFFF;fontSize=11;" value="Sistema externo" vertex="1">
+          <mxGeometry height="40" width="130" x="374" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#404040;" value="Relación" vertex="1">
+          <mxGeometry height="20" width="130" x="514" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="cZZk2FH1cJNUXklnZVG_-7" edge="1" parent="1" style="html=1;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="904" as="sourcePoint" />
+            <mxPoint x="634" y="904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="C2 - Contenedores" id="-9g0clkhte7N-BAPx8Cz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-0" />
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-1" parent="Vq7ukmWbqQx6m-HA73Yl-0" />
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-2" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="1240" width="880" x="172.5" y="180" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Microsoft Teams" c4Type="Sistema Externo" c4Description="Plataforma de chat de Acme Corp: mensajes 1:1 con el bot y canal del equipo. Autentica a los usuarios." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Vq7ukmWbqQx6m-HA73Yl-6">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="492.5" y="510" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-7" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.492;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;" target="Vq7ukmWbqQx6m-HA73Yl-6" value="Recibe el recordatorio, llena&lt;br&gt;la daily y lee el canal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.9000000000001" y="426.5999999999999" as="sourcePoint" />
+            <mxPoint x="536.5" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-8" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.529;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Vq7ukmWbqQx6m-HA73Yl-6" value="&lt;div&gt;Recibe alertas&lt;/div&gt;&lt;div&gt;y lee el canal&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="798.2999999999997" y="427.79999999999995" as="sourcePoint" />
+            <mxPoint x="622.5" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-10" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" source="Vq7ukmWbqQx6m-HA73Yl-6" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ataUUOEKssKbgqkSFyIy-4" value="&lt;div&gt;Envia recordatorios,&amp;nbsp;&lt;/div&gt;&lt;div&gt;alertas y publica reportes&lt;/div&gt;&lt;div&gt;[Bot Connect API]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="522.5" y="490" as="sourcePoint" />
+            <mxPoint x="552.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vq7ukmWbqQx6m-HA73Yl-11" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" source="ataUUOEKssKbgqkSFyIy-5" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="Vq7ukmWbqQx6m-HA73Yl-6" value="Envía recordatorios 1:1,&lt;br&gt;publica reportes y alertas&lt;br&gt;[Bot Connector API / HTTPS]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="672.5" y="750" as="sourcePoint" />
+            <mxPoint x="542.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Integrante del equipo" c4Type="Persona" c4Description="Reporta su daily desde MS Teams" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="ataUUOEKssKbgqkSFyIy-0">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#FFFFFF;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="337.5" y="240" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Scrum Master" c4Type="Persona" c4Description="Recibe alertas y revisa el canal" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font&gt;%c4Description%&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" id="ataUUOEKssKbgqkSFyIy-1">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#FFFFFF;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="692.5" y="240" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-3" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;arcSize=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 4;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;align=left;verticalAlign=bottom;spacingLeft=12;spacingBottom=8;container=0;pointerEvents=0;" value="&lt;b&gt;&lt;font style=&quot;font-size:14px&quot;&gt;DailyPulse&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Sistema de software · AWS]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="560" width="780" x="220" y="700" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="[Contenedor: Amazon API Gateway (HTTP API)]" c4Description="Endpoint HTTPS público que recibe lo que Teams le envía al bot." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ataUUOEKssKbgqkSFyIy-4">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="260" y="730" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="DailyPulse Backend" c4Type="Container" c4Technology="[Contenedor: AWS Lambda, Python 3.12 + Microsoft 365 Agents SDK]" c4Description="Toda la lógica: envía recordatorios, valida y guarda reportes, detecta faltantes y temas repetidos, y publica en Teams." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ataUUOEKssKbgqkSFyIy-5">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="492.5" y="920" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Scheduler" c4Type="Container" c4Technology="[Contenedor: Amazon EvenBridge Scheduler]" c4Description="Por equipo: recordatorio (9:00) y cierre (10:00), L-V, hora de Bogotá." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ataUUOEKssKbgqkSFyIy-6">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="740" y="730" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-7" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" source="ataUUOEKssKbgqkSFyIy-4" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ataUUOEKssKbgqkSFyIy-5" value="&lt;div&gt;Invoca&lt;/div&gt;&lt;div&gt;[Evento HTTP]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="470" as="sourcePoint" />
+            <mxPoint x="610.0999999999999" y="553.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-8" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" source="ataUUOEKssKbgqkSFyIy-6" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ataUUOEKssKbgqkSFyIy-5" value="&lt;div&gt;Invoca a la hora del&lt;/div&gt;&lt;div&gt;recordatorio y del cierre&lt;/div&gt;&lt;div&gt;[Evento Programado]&amp;nbsp;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896.2999999999997" y="450" as="sourcePoint" />
+            <mxPoint x="770" y="532.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Base de Datos" c4Type="Container" c4Technology="[Contenedor: Amazon DynamoDB]" c4Description="Tablas MS Teams: Members y Reports" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ataUUOEKssKbgqkSFyIy-9">
+          <mxCell parent="Vq7ukmWbqQx6m-HA73Yl-1" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
+            <mxGeometry height="120" width="240" x="492.5" y="1100" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-10" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" source="ataUUOEKssKbgqkSFyIy-5" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ataUUOEKssKbgqkSFyIy-9" value="&lt;div&gt;Lee y escribe&lt;/div&gt;&lt;div&gt;[Boto3]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="900" as="sourcePoint" />
+            <mxPoint x="533" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-11" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#222222;" value="&lt;b&gt;&lt;font style=&quot;font-size:20px&quot;&gt;C2 · Diagrama de Contenedores — DailyPulse&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;Acme Corp · Control de dailies Scrum integrado con Microsoft Teams · Infraestructura en AWS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="780" x="220" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-12" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#222222;" value="&lt;b&gt;Leyenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="220" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-13" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;arcSize=40;whiteSpace=wrap;html=1;fillColor=#08427B;strokeColor=#073B6F;fontColor=#FFFFFF;fontSize=11;" value="Persona" vertex="1">
+          <mxGeometry height="40" width="130" x="220" y="1356" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-14" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=11;" value="Contenedor" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="1356" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-15" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=6;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=11;" value="Base de datos" vertex="1">
+          <mxGeometry height="40" width="130" x="500" y="1356" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-16" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#8A8A8A;fontColor=#FFFFFF;fontSize=11;" value="Sistema externo" vertex="1">
+          <mxGeometry height="40" width="130" x="640" y="1356" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-17" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#404040;" value="Relación" vertex="1">
+          <mxGeometry height="20" width="130" x="780" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="ataUUOEKssKbgqkSFyIy-18" edge="1" parent="Vq7ukmWbqQx6m-HA73Yl-1" style="html=1;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="1374" as="sourcePoint" />
+            <mxPoint x="900" y="1374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="C3 - Componentes (Lambda)" id="n5Yl-9qmB8iHSoj8R_Z0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nzgh9qciRsiboJS9vvNP-0" />
+        <mxCell id="nzgh9qciRsiboJS9vvNP-1" parent="nzgh9qciRsiboJS9vvNP-0" />
+        <mxCell id="nzgh9qciRsiboJS9vvNP-2" parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&amp;nbsp;" vertex="1">
+          <mxGeometry height="1350" width="1760" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nzgh9qciRsiboJS9vvNP-14" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-8" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-10" value="&lt;div&gt;Evento HTTP&lt;/div&gt;&lt;div&gt;(actividad de Teams)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.3297" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="587" y="204.99999999999977" as="sourcePoint" />
+            <mxPoint x="663" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzgh9qciRsiboJS9vvNP-15" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-9" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-10" value="&lt;div&gt;Evento programado&lt;/div&gt;&lt;div&gt;(tipo, equipo)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.3149" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="983" y="190" as="sourcePoint" />
+            <mxPoint x="902.9999999999998" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Base de Datos" c4Type="Container" c4Technology="Amazon DynamoDB" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="nzgh9qciRsiboJS9vvNP-16">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
+            <mxGeometry height="120" width="240" x="430" y="1110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="nzgh9qciRsiboJS9vvNP-17" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-24" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="nzgh9qciRsiboJS9vvNP-16" value="&lt;div&gt;Consultas&lt;/div&gt;&lt;div&gt;[Boto3 / HTTPS]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542.1428571428569" y="1070" as="sourcePoint" />
+            <mxPoint x="693" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vpS2HAHec6ky5-NSUBAx-0" parent="nzgh9qciRsiboJS9vvNP-1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#222222;" value="&lt;b&gt;&lt;font style=&quot;font-size:20px&quot;&gt;C3 · Diagrama de Componentes — contenedor DailyPulse Backend (Lambda)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:13px&quot;&gt;Acme Corp · Control de dailies Scrum integrado con Microsoft Teams · Infraestructura en AWS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="1100" x="220" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-0" parent="nzgh9qciRsiboJS9vvNP-1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#222222;" value="&lt;b&gt;Leyenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="220" y="1322" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-1" parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=light-dark(#63bef2, #2a5986);strokeColor=#78A8D8;fontColor=#000000;fontSize=11;" value="Componente" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-2" parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=light-dark(#23a2d9, #4686c4);strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=11;" value="Contenedor" vertex="1">
+          <mxGeometry height="40" width="130" x="220" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-3" parent="nzgh9qciRsiboJS9vvNP-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=6;fillColor=light-dark(#23a2d9, #1d8ab9);strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=11;" value="Base de datos" vertex="1">
+          <mxGeometry height="40" width="130" x="500" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-4" parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#8A8A8A;fontColor=#FFFFFF;fontSize=11;" value="Sistema externo" vertex="1">
+          <mxGeometry height="40" width="130" x="640" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-5" parent="nzgh9qciRsiboJS9vvNP-1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#404040;" value="Relación" vertex="1">
+          <mxGeometry height="20" width="130" x="780" y="1372" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-6" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" style="html=1;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="1366" as="sourcePoint" />
+            <mxPoint x="900" y="1366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="Amazon API Gateway" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-8">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="467" y="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Scheduler" c4Type="Container" c4Technology="Amazon EvenBridge Scheduler" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-9">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="863" y="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Lambda_Handler" c4Type="Component" c4Technology="Función de Entrada" c4Description="Si el evento viene de API Gateway lo pasa a BotController; si viene del Scheduler, a JobsController." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-10">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="665.5" y="310" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="BotController" c4Type="Component" c4Technology="módulo Python (Agents SDK)" c4Description="Valida el token del Bot Connector y atiende la actividad: instalación del bot o envío del formulario." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-13">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="430" y="510" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-14" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-10" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-13" value="&lt;div&gt;Actividad&lt;/div&gt;&lt;div&gt;de Teams&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1355" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1010" y="330" as="sourcePoint" />
+            <mxPoint x="563" y="510.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="JobsController" c4Type="Component" c4Technology="módulo Python" c4Description="REMINDER: envía el formulario a cada integrante. DEADLINE: revisa quién falta y lo publica." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-16">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="890" y="520" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-17" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-10" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;div&gt;REMINDER/&lt;/div&gt;&lt;div&gt;DEADLINE&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1648" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="643" y="330" as="sourcePoint" />
+            <mxPoint x="1003" y="510.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="DailyService" c4Type="Component" c4Technology="servicio de dominio" c4Description="Registra integrantes, valida las casillas, guarda el reporte y consulta integrantes y reportes del día." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-18">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="430" y="700" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-19" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-13" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-18" value="&lt;div&gt;Registra integrante/&lt;/div&gt;&lt;div&gt;procesa formulario&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1355" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="772" y="610" as="sourcePoint" />
+            <mxPoint x="610" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-20" parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;arcSize=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 4;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;align=left;verticalAlign=bottom;spacingLeft=12;spacingBottom=8;container=0;pointerEvents=0;" value="&lt;b&gt;&lt;font style=&quot;font-size:14px&quot;&gt;DailyPulse Backend&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Contenedor: AWS Lambda · Python 3.12]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="730" width="1430" x="100" y="300" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="RepeatedTopicDetector" c4Type="Component" c4Technology="función pura" c4Description="Compara el tema del reporte con los 2 anteriores; si los 3 coinciden, marca posible bloqueo." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-21">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="110" y="700" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-23" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-18" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-21" value="&lt;div&gt;Evalúa&lt;/div&gt;&lt;div&gt;tema&lt;/div&gt;&lt;div&gt;repetido&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1355" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="813" y="540" as="sourcePoint" />
+            <mxPoint x="650" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="DynamoRepository" c4Type="Component" c4Technology="Boto3" c4Description="Lectura y escritura de las tablas Teams, Members y Reports." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-24">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="430" y="870" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-25" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-18" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-24" value="Lee y escribe">
+          <mxGeometry relative="1" x="-0.1355" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="650" as="sourcePoint" />
+            <mxPoint x="570" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-27" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-16" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" target="KJ8ziGI2Ov4EtZRr7mj0-18" value="Pide integrantes y&lt;br&gt;reportes del día">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="730" as="sourcePoint" />
+            <mxPoint x="770" y="898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="TeamsClient" c4Type="Component" c4Technology="módulo Python + Adaptive Cards" c4Description="Arma las tarjetas (formulario, reporte, alertas) y las envía 1:1 o al canal." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-28">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="890" y="700" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-29" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-18" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;exitPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-28" value="Publica reporte&lt;br&gt;y alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="780" as="sourcePoint" />
+            <mxPoint x="850" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-30" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-16" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;exitPerimeter=0;" target="KJ8ziGI2Ov4EtZRr7mj0-28" value="&lt;div&gt;Envía recordatorios&amp;nbsp;&lt;/div&gt;&lt;div&gt;y faltantes&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="760" as="sourcePoint" />
+            <mxPoint x="1070" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="MissingController" c4Type="Component" c4Technology="función Pura" c4Description="Compara los integrantes activos con los reportes del día y devuelve quién no reportó." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KJ8ziGI2Ov4EtZRr7mj0-31">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#000000;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="1250" y="520" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KJ8ziGI2Ov4EtZRr7mj0-32" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-16" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" target="KJ8ziGI2Ov4EtZRr7mj0-31" value="Calcula&lt;br&gt;faltantes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="620" as="sourcePoint" />
+            <mxPoint x="1210" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Microsoft Teams" c4Type="Sistema Externo" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="HYUEXmlVSklQY23LYYyU-0">
+          <mxCell parent="nzgh9qciRsiboJS9vvNP-1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;roundedPerimeter=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="1560" y="700" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="HYUEXmlVSklQY23LYYyU-1" edge="1" parent="nzgh9qciRsiboJS9vvNP-1" source="KJ8ziGI2Ov4EtZRr7mj0-28" style="edgeStyle=none;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#707070;strokeWidth=1.5;endArrow=block;endFill=1;endSize=8;fontSize=11;fontColor=#404040;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="HYUEXmlVSklQY23LYYyU-0" value="Envía tarjetas&lt;br&gt;[Bot Connector API]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="860" as="sourcePoint" />
+            <mxPoint x="1840" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
